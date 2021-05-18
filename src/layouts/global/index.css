@@ -1,0 +1,28 @@
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #374785;
+}
+.logo {
+  padding: 5px 15px;
+  width: 92px;
+  height: 48px;
+  background-image: url(../../assets/logo.png);
+  background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.search {
+  max-width: 40%;
+}
+
+.footer {
+  height: 80px;
+  background: #374785;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
