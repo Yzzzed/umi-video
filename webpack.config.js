@@ -9,15 +9,4 @@ module.exports = {
       '@': require('path').resolve(__dirname, 'src'),
     },
   },
-  devServer: {
-    proxy : {
-      '/api' : {
-          target: 'http://localhost:8080', // 跨域地址
-          changeOrigin : true,
-          pathRewrite: {
-            '^/api': '/'
-          }
-      }
-  }
-  }
 };

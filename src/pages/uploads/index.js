@@ -1,4 +1,4 @@
-import react from 'react'
+import react, { useEffect } from 'react'
 import style from './index.css'
 import { Upload, Icon, message } from 'antd';
 
@@ -7,7 +7,7 @@ const { Dragger } = Upload;
 const props = {
   name: 'file',
   multiple: true,
-  action: '/api/xxxxxxxx', // 后端接口地址 改api后边的xxx 配置跨域地址在webpack.config.js
+  action: '/api/center/addVideo.do', // 后端接口地址 改api后边的xxx 配置跨域地址在webpack.config.js
   onChange(info) {
     const { status } = info.file;
     if (status !== 'uploading') {
@@ -34,7 +34,7 @@ const Uploads = () => {
           band files
         </p>
       </Dragger>
-    </div >
+    </div>
   )
 }
 

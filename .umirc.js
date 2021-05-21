@@ -8,7 +8,7 @@ export default {
       component: '../layouts/index',
       routes: [
         { path: '/', component: '../pages/index/index' },
-        { path: '/upload', component: '../pages/uploads/index' },
+        { path: '/uploads', component: '../pages/uploads/index' },
       ]
     }
   ],
@@ -32,4 +32,11 @@ export default {
       },
     }],
   ],
+  proxy: {
+    '/api': {
+      'target': 'http://localhost:8080/blogSystem_war/', // 跨域地址
+      'changeOrigin': true,
+      'pathRewrite': { '^/api' : '' },
+    },
+  },
 }
