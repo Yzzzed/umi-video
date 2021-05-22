@@ -10,7 +10,8 @@ const UserVideoCard = props => {
       cover={
         <img
           alt="example"
-          src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+          style={{width: '222px', height: '121px',}}
+          src={props.src ? props.src : 'https://image.hyzed.cn/blog/157c59376b0940958ff76bcac35d9192.jpg'}
         />
       }
     >

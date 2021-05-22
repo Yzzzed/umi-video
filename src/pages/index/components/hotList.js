@@ -6,7 +6,7 @@ import style from '../index.css'
 const HotList = () => {
   return (
     <Card>
-      <Row gutter={16}>
+      <Row gutter={8}>
         <Col span={6}>
           <HotCard />
         </Col>

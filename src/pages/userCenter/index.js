@@ -40,25 +40,25 @@ const UserCenter = props => {
         <div className={style.userVideoList}>
           <Row gutter={8}>
             <Col span={6}>
-              <UserVideoCard />
+              <UserVideoCard src={'https://image.hyzed.cn/blog/77ec47fc3360c48a41536ab743bbb0b7.jpg'} />
             </Col>
             <Col span={6}>
               <UserVideoCard />
             </Col>
             <Col span={6}>
-              <UserVideoCard />
+              <UserVideoCard src={'https://image.hyzed.cn/blog/cd353e71c6358457d890d61f644ce96c.jpg'} />
             </Col>
             <Col span={6}>
               <UserVideoCard />
             </Col>
             <Col span={6}>
-              <UserVideoCard />
+              <UserVideoCard src={'https://image.hyzed.cn/blog/e351f31c1206b637d789b3b1441de6fd.jpg'} />
             </Col>
             <Col span={6}>
-              <UserVideoCard />
+              <UserVideoCard src={'https://image.hyzed.cn/blog/3ba7f0825efe8230412124fcde8b46a4.jpg'} />
             </Col>
             <Col span={6}>
-              <UserVideoCard />
+              <UserVideoCard src={'https://image.hyzed.cn/blog/286a676a8b4bf58346d8153e8281ad14.jpg'} />
             </Col>
           </Row>
         </div>
