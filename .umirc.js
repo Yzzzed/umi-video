@@ -9,6 +9,8 @@ export default {
       routes: [
         { path: '/', component: '../pages/index/index' },
         { path: '/uploads', component: '../pages/uploads/index' },
+        { path: '/search', component: '../pages/searchList/index' },
+        { path: '/center', component: '../pages/userCenter/index' },
       ]
     }
   ],

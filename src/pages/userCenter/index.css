@@ -1,0 +1,33 @@
+.userInfo {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #eceef3;
+  padding: 20px;
+}
+.avatar {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.scoinContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.userVideoCard {
+  margin: 20px auto;
+  width: 80%;
+  background: #C3C7DA;
+  text-align: left;
+}
+.userVideoList {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-flow: row wrap;
+}
